@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Commit Buddy</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      width: 300px;
+      padding: 16px;
+      background-color: #f7f7f7;
+    }
+    h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    textarea {
+      width: 100%;
+      height: 80px;
+      padding: 8px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      resize: none;
+    }
+    .buttons {
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+    button {
+      flex: 1;
+      margin-right: 6px;
+      padding: 8px;
+      font-size: 14px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:last-child {
+      margin-right: 0;
+    }
+    .copy-btn {
+      background-color: #4CAF50;
+      color: white;
+    }
+    .regen-btn {
+      background-color: #2196F3;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h2>🧠 Smart Commit Suggestion</h2>
+  <textarea id="commitSuggestion" readonly>Loading...</textarea>
+  <div class="buttons">
+    <button class="copy-btn" id="copyBtn">📋 Copy</button>
+    <button class="regen-btn" id="regenBtn">🔁 Regenerate</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Commit Buddy",
+  "version": "1.0",
+  "description": "Suggest better commit messages using AI.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["clipboardWrite"]
+}
