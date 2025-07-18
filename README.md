@@ -1,7 +1,3 @@
-# synchrony-project-repo
-Has the code for MVP
-
-
 ### 🔧 Configuration Required
 > Before running the project, make sure to update the model path in `test_llm.py`.
 This project uses the LLaMA 2 7B Chat GGUF model.
